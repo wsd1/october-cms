@@ -28,11 +28,16 @@ setup:
 
 ## 本repo安装方法
 
-找个好风水的路径，比如 ~\product\
+找个好风水的路径，比如 ~\www\
 
 	git clone https://github.com/wsd1/october-cms.git
 	mv october-cms oc
 	cd oc
+
+	mkdir storage/cms/combiner
+	mkdir storage/cms/cache
+	mkdir storage/cms/twig
+	mkdir storage/framework/sessions
 
     sudo chown -R dy:www-data ../oc
     sudo chmod -R g+wrx ../oc
@@ -44,7 +49,9 @@ setup:
     sudo chown -R dy:www-data ../oc
     sudo chmod -R g+wrx ../oc
 
-安装之后，请立即安装 builder和user插件，详情自觅。
+安装之后，访问 http://xxx.xxx.xxx.xxx/backend
+
+	请立即安装 builder和user插件，详情自觅。
 
 20160921.
 
