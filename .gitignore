@@ -2,7 +2,7 @@ plugins/
 themes/
 .log
 
-
+storage/database.sqlite
 storage/framework/cache
 storage/framework/sessions
 
