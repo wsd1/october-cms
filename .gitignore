@@ -1,0 +1,8 @@
+plugins/
+themes/
+.log
+
+
+storage/framework/cache
+storage/framework/sessions
+
