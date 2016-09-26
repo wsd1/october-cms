@@ -6,3 +6,7 @@ storage/database.sqlite
 storage/framework/cache
 storage/framework/sessions
 
+storage/cms/cache/
+storage/cms/twig/
+storage/logs/
+

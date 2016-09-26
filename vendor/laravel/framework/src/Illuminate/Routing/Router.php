@@ -853,7 +853,6 @@ class Router implements RegistrarContract
     public function middleware($name, $class)
     {
         $this->middleware[$name] = $class;
-
         return $this;
     }
 
